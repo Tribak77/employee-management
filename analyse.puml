@@ -1,0 +1,16 @@
+@startuml employee
+left to right direction
+actor "Admin" as fc
+rectangle Employee {
+  usecase "add an employee" as UC1
+  usecase "delete an employee" as UC2
+  usecase "edit an employee" as UC3
+  usecase "view employees list" as UC4
+  usecase "search for an employee" as UC5
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> UC4
+fc --> UC5
+@enduml
