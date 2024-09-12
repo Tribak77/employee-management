@@ -5,7 +5,7 @@ let MyTable = [
     'orange',
     'banana',
     32
-]
+];
 
 const data = JSON.stringify(MyTable);
 
